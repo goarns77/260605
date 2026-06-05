@@ -5,7 +5,6 @@
 //환경 변수
 const dotenv = require("dotenv");
 dotenv.config();
-// == require("dotenv").config();
 
 //의존성
 const express = require("express");
