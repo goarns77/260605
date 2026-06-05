@@ -5,7 +5,7 @@ dotenv.config();
 
 //의존성
 const express = require("express");
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT_01 ?? 3000;
 
 //서버 세팅
 const app = express();
